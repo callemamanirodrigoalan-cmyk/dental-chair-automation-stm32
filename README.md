@@ -49,8 +49,23 @@ These are the parts worth looking at in `src/`:
 - **Outputs:** 2× solenoid valve drivers, each with a feedback input for open/close confirmation
 - **UI:** 2-digit 7-segment display (multiplexed via a timer ISR) + 2 push-buttons
 - **Sensor reset:** independent XSHUT line per sensor for clean power-on state
-- **Custom PCB:** designed in EasyEDA / KiCad, fabricated in **both through-hole (DIP) and SMD**
-  versions (see `/hardware`)
+- **Custom PCB:** designed in EasyEDA / KiCad, in **both through-hole (DIP) and SMD** versions
+
+### Board design
+
+**SMD version**
+
+| PCB layout | 3D — top | 3D — bottom |
+|---|---|---|
+| ![SMD PCB](hardware/main-controller-smd.png) | ![SMD 3D top](hardware/main-controller-smd-3d-top.png) | ![SMD 3D bottom](hardware/main-controller-smd-3d-botton.png) |
+
+**Through-hole (DIP) version**
+
+| PCB layout | 3D — top | 3D — bottom |
+|---|---|---|
+| ![DIP PCB](hardware/main-controller-dip.png) | ![DIP 3D top](hardware/main-controller-dip-3d-top.png) | ![DIP 3D bottom](hardware/main-controller-dip-3d-botton.png) |
+
+*The same controller was designed in both SMD and through-hole layouts.*
 
 ---
 
